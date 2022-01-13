@@ -37,7 +37,7 @@ Bônus:
 
 A API que disponibilizamos para o desafio é uma versão modificada da (https://www.metaweather.com/). Você deverá rodar o servidor em seu localhost, de acordo com a instruções postas abaixo. O servidor irá rodar na porta 8080, e possui um único endpoint, onde você deve passar como parâmetro a localidade que quer buscar dados de previsão do tempo
 
-As localizações suportadas podem ser encontradas em: https://www.metaweather.com/map/
+As localizações suportadas podem ser encontradas em: https://www.metaweather.com/map/ ou em [list.txt](https://github.com/kontulari/kontulari-weather/blob/master/server/list.txt).
 
 URL com exemplo de parâmetro de localização:
 
