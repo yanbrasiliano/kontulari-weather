@@ -1,63 +1,69 @@
 import React, { Component } from "react";
-import { StyleSheet, View, StatusBar, Text, Image } from "react-native";
-import Icon from "react-native-vector-icons/FontAwesome";
+import styled, { css } from "styled-components";
+import FontAwesomeIcon from "react-native-vector-icons/dist/FontAwesome";
 
 function Inicial(props) {
   return (
-    <View style={styles.container}>
-      <StatusBar barStyle="dark-content" />
-      <Text style={styles.kontulariWeather}>KONTULARI WEATHER</Text>
-      <Image
-        source={require("../assets/images/unnamed.png")}
-        resizeMode="contain"
-        style={styles.image}
-      ></Image>
-      <View style={styles.rect}>
-        <Icon name="search" style={styles.icon}></Icon>
-      </View>
-    </View>
+    <Container>
+      <KontulariWeather>KONTULARI WEATHER</KontulariWeather>
+      <Image src={require("../assets/images/unnamed.png")}></Image>
+      <Rect>
+        <FontAwesomeIcon
+          name="search"
+          style={{
+            color: "rgba(128,128,128,1)",
+            fontSize: 40,
+            height: 40,
+            width: 38,
+            marginTop: 28,
+            marginLeft: 32
+          }}
+        ></FontAwesomeIcon>
+      </Rect>
+    </Container>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "rgba(130,225,193,1)",
-    borderWidth: 25,
-    borderColor: "#000000",
-    borderStyle: "solid"
-  },
-  kontulariWeather: {
-    fontFamily: "abel-regular",
-    color: "#121212",
-    height: 72,
-    width: 463,
-    fontSize: 50,
-    marginTop: 287,
-    marginLeft: 463
-  },
-  image: {
-    width: 154,
-    height: 145,
-    marginTop: -302,
-    marginLeft: 581
-  },
-  rect: {
-    width: 601,
-    height: 96,
-    backgroundColor: "#E6E6E6",
-    borderRadius: 36,
-    marginTop: 220,
-    marginLeft: 369
-  },
-  icon: {
-    color: "rgba(128,128,128,1)",
-    fontSize: 40,
-    height: 40,
-    width: 38,
-    marginTop: 28,
-    marginLeft: 32
-  }
-});
+const Container = styled.div`
+  display: flex;
+  background-color: rgba(130,225,193,1);
+  border-width: 25px;
+  border-color: #000000;
+  border-style: solid;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+`;
+
+const KontulariWeather = styled.span`
+  font-family: Abel;
+  font-style: normal;
+  font-weight: 400;
+  color: #121212;
+  height: 72px;
+  width: 463px;
+  font-size: 50px;
+  margin-top: 287px;
+  margin-left: 463px;
+`;
+
+const Image = styled.img`
+  width: 154px;
+  height: 100%;
+  margin-top: -302px;
+  margin-left: 581px;
+  object-fit: contain;
+`;
+
+const Rect = styled.div`
+  width: 601px;
+  height: 96px;
+  background-color: #E6E6E6;
+  border-radius: 36px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 220px;
+  margin-left: 369px;
+`;
 
 export default Inicial;
