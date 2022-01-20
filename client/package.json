@@ -1,0 +1,46 @@
+{
+	"name": "Kontulari-Weather",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"axios": "^0.21.1",
+		"bootstrap": "4.6.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.2",
+		"moment": "^2.29.1",
+		"moment-with-locales-es6": "^1.0.1",
+		"node-fetch": "^3.1.0",
+		"react": "^17.0.2",
+		"react-bootstrap": "^1.6.0",
+		"react-dom": "^17.0.2",
+		"react-router": "^6.2.1",
+		"react-scripts": "4.0.3",
+		"web-vitals": "^1.0.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"dev": "node server/app.js && npm run start"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		],
+		"rules": {
+			"no-restricted-globals": ["history", "event"]
+		}
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"type": "module"
+}
