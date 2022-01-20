@@ -1,4 +1,4 @@
-## under construction, please wait!
+## Under construction, please wait...
 
 
 ### Project Images
