@@ -1,5 +1,5 @@
 {
-	"name": "Kontulari-Weather",
+	"name": "KontulariWeather",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -25,10 +25,7 @@
 		"extends": [
 			"react-app",
 			"react-app/jest"
-		],
-		"rules": {
-			"no-restricted-globals": ["history", "event"]
-		}
+		]
 	},
 	"browserslist": {
 		"production": [
