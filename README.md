@@ -10,7 +10,7 @@
 
 ## Requisitos
 
-Node.js (versão 14.17 ou superior)<br
+Node.js (versão 14.17 ou superior)<br>
 Git (versão 2.33 ou superior)<br>
 Yarn (versão 1.22 ou superior)
 
