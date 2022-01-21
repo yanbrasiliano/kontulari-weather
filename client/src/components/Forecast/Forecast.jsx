@@ -25,13 +25,15 @@ const Forecast = ({ forecast }) => (
 			</Col>
 		</Row>
 
-		<Col xs={12} md={4}>
-			<div>
-				<button type="submit" className={styles.button} onClick={() => { window.location = "/" }}>
-					Voltar
-				</button>
-			</div>
-		</Col>
+		<Row>
+
+
+			<button type="submit" className={styles.button} onClick={() => { window.location = "/" }}>
+				Voltar
+			</button>
+
+
+		</Row>
 	</Container >
 );
 
