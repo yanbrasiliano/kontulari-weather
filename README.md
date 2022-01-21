@@ -10,15 +10,15 @@
 
 ## Requisitos
 
-Node.js (versão 14.17 ou superior)
-Git (versão 2.33 ou superior)
+Node.js (versão 14.17 ou superior)<br
+Git (versão 2.33 ou superior)<br>
 Yarn (versão 1.22 ou superior)
 
 ## Stack 
-ReactJS;
-Javascript;
-HTML;
-CSS;
+ReactJS;<br>
+Javascript;<br>
+HTML;<br>
+CSS;<br>
 Bootstrap.
 
 ## Como rodar ? 
