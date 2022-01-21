@@ -29,6 +29,8 @@ Bootstrap.
 3. Com outro terminal, acesse o diretório client e rode o comando:
 <pre>$ node /server/app.js </pre>
 
+## Observação
+Projeto não finalizado 100%, pendente aplicação de tratamento de erros.
 
 <br>
 <br>
