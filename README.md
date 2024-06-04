@@ -1,40 +1,59 @@
-## Kontulari Weather 
+# Kontulari Weather
 
-<p>Este desafio consta em consumir uma API disponibilizada pela equipe técnica da Kontulari e trazer uma interface com informações sobre o clima da cidade digitada pelo usuário. O desafio ainda trás a premissa de ser responsivo e funcional, com os detalhes de sendo a cargo do participante.</p>
+<p>This project is a technical challenge that involves consuming an API provided by the Kontulari technical team and presenting a user interface with weather information for the city entered by the user. The application is required to be responsive and functional, with implementation details left to the participant.</p>
 
-## Imagens da Aplicação
+## Application Screenshots
 
 ![image](https://user-images.githubusercontent.com/72168914/150454883-5ebbf1d3-26e9-4328-ba24-679b00888e9e.png)
  
 ![image](https://user-images.githubusercontent.com/72168914/150454563-8c444151-34c9-4182-afc7-f7e7b9986afc.png)
 
-## Requisitos
+## Requirements
 
-Node.js (versão 14.17 ou superior)<br>
-Git (versão 2.33 ou superior)<br>
-Yarn (versão 1.22 ou superior)
+- Node.js (version 14.17 or higher)
+- Git (version 2.33 or higher)
+- Yarn (version 1.22 or higher)
 
-## Stack 
-ReactJS;<br>
-Javascript;<br>
-HTML;<br>
-CSS;<br>
-Bootstrap.
+## Tech Stack
 
-## Como rodar ? 
-1. Dentro do diretório client, abra um terminal e rode o comando:
-<pre>$ yarn </pre>
-2. Dentro desta mesmo diretório client, abra um terminal e rode o comando:
-<pre>$ yarn start </pre>
-3. Com outro terminal, acesse o diretório client e rode o comando:
-<pre>$ node /server/app.js </pre>
+- ReactJS
+- JavaScript
+- HTML
+- CSS
+- Bootstrap
 
-## Observação
-Projeto não finalizado 100%, pendente aplicação de tratamento de erros.
+## How to Run
 
-<br>
-<br>
+1. Navigate to the `client` directory, open a terminal, and install dependencies:
 
-<footer>
-  Todos os direitos de utilização e modificação são livres.
-</footer>
+    ```bash
+    yarn
+    ```
+
+2. In the same `client` directory, start the development server:
+
+    ```bash
+    yarn start
+    ```
+
+3. In another terminal, navigate to the `client` directory and start the server:
+
+    ```bash
+    node server/app.js
+    ```
+
+## TODO
+
+The technical challenge is not 100% complete. Below are the pending tasks and issues that need to be addressed:
+
+1. **Error Handling**:
+    - Proper error messages need to be implemented for various scenarios, such as invalid city input or network errors.
+    - Current implementation lacks user feedback for these situations.
+
+2. **Improved UI/UX**:
+    - Enhance the user interface to provide a better user experience.
+    - Implement loading indicators while fetching data from the API.
+
+3. **Testing**:
+    - Add unit and integration tests to ensure the reliability of the application.
+
